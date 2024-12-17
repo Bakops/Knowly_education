@@ -10,12 +10,116 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #ffffff;
   }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@layer components {
+  .menu-link {
+    @apply relative text-white no-underline px-2 py-1 text-base;
+  }
+  
+  .menu-link::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0px;
+    height: 0px;
+    background-color: #c3cc50;
+    border-radius: 50%;
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  
+  .menu-link:hover::before {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .menu-link-active::before {
+    width: 8px;
+    height: 8px;
+  }
+
+  .menu-link-active:hover::before {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+
+/* Conteneur principal */
+.slider-container {
+  width: 100%; /* Prend toute la largeur disponible */
+  overflow: hidden; /* Cache les éléments en dehors de la zone visible */
+  display: flex;
+  align-items: center;
+  height: 150px; /* Hauteur du conteneur */
+}
+
+/* Slider contenant tous les logos */
+.slider {
+  display: flex;
+  gap: 4rem;
+  padding: 1rem 0;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .slider {
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slider-container:hover .slider {
+  animation-play-state: paused;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 30s linear infinite;
+  display: flex;
+  width: calc(200%);
+}
+
+ul li {
+  flex-shrink: 0;
+  width: auto;
 }

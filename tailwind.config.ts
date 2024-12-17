@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      height: {
+        height_header: "78px",
+      }
     },
   },
   plugins: [],
