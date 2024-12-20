@@ -16,21 +16,21 @@ export default function HeaderComponent() {
             <header className="flex flex-row justify-around items-center p-4 bg-gray-800 text-white rounded-full w-full md:w-2/3 gap-2">
                 {/* Logo at the beginning */}
         <div className="flex justify-center items-center text-xl font-bold w-32 h-[95px]">
-    <img 
-        src="logo2.png" 
+    <Link href="/test"><img 
+        src="/logo2.png" 
         alt="Logo" 
         className="w-auto h-auto scale-125 object-contain" 
-    />
+    /></Link>
 </div>
 
                 {/* Menu links in the middle */}
                 <nav className={`w-full bg-gray-800 flex-col items-center ${isMenuOpen ? "opacity-0" : "hidden"} md:flex md:flex-row md:w-auto`}>
                     <ul className="flex flex-col md:flex-row md:gap-8">
-                        <li><Link href="/test" className="menu-link menu-link-active font-poppins font-bold text-lg">Accueil</Link></li>
+                        <li><Link href="/test" className="menu-link font-poppins font-bold text-lg">Accueil</Link></li>
                         <li><Link href="/test/page/cours" className="menu-link font-poppins font-bold text-lg ">Cours</Link></li>
                         <li><Link href="/test/page/lessons" className="menu-link font-poppins font-bold text-lg">Leçons</Link></li>
                         <li><Link href="/test/page/a_propos" className="menu-link font-poppins font-bold text-lg">À propos</Link></li>
-                        <li><Link href="/test/page/contact" className="menu-link font-poppins font-bold text-lg">Contact</Link></li>
+                        <li><Link href="/test/page/contact" className="menu-link menu-link-active font-poppins font-bold text-lg">Contact</Link></li>
                     </ul>
                 </nav>
 

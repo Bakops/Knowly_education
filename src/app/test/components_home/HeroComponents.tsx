@@ -1,5 +1,6 @@
 import React from "react";
 import { Poppins } from "next/font/google";
+import Link from "next/link";
 
 const poppins = Poppins({
   weight: ['400', '600', '700'],
@@ -28,7 +29,7 @@ export default function HeroHeader() {
                         <a href="/api/All_translator">En savoir plus</a>
                     </button>
                     <button className="w-full sm:w-auto bg-gray-800 text-[#FFF] px-5 py-3 text-sm sm:text-base rounded-md hover:opacity-90 cursor-pointer relative flex align-middle justify-center gap-3">
-                        <a href="/api/All_translator">Contactez-nous</a>
+                        <Link href="/test/page/contact">Contactez-nous</Link>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" className="mt-1">
                         <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
                         <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>

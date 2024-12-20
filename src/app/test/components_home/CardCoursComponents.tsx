@@ -6,8 +6,8 @@ export default function CardCoursComponent(){
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex items-end justify-between">
             <div className="flex-1 text-center lg:text-left">
-                <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Latest from blog</h2>
-                <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600 lg:mx-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Ces cours pourraient vous intéresser :</h2>
+                <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600 lg:mx-0">Découvrez une sélection de cours en ligne conçus pour booster vos compétences et vous accompagner dans votre apprentissage.</p>
             </div>
 
             <div className="hidden lg:flex lg:items-center lg:space-x-3">
@@ -47,7 +47,7 @@ export default function CardCoursComponent(){
                     </p>
                     <p className="mt-1 text-base text-[15px] text-white">Apprenez à coder en Python, l'un des langages les plus polyvalents et populaires au monde. Ce cours vous guidera pas à pas</p>
                     <a href="#" title="" className="inline-flex items-center justify-center py-1.5 px-4 mt-5 text-sm font-semibold text-[#c3cc50] bg-white rounded-full transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
+                        Commencer
                     </a>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ export default function CardCoursComponent(){
                     </p>
                     <p className="mt-1 text-base text-[15px] text-white">Apprenez à coder en Python, l'un des langages les plus polyvalents et populaires au monde. Ce cours vous guidera pas à pas</p>
                     <a href="#" title="" className="inline-flex items-center justify-center py-1.5 px-4 mt-5 text-sm font-semibold text-[#c3cc50] bg-white rounded-full transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
+                        Commencer
                     </a>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ export default function CardCoursComponent(){
                     </p>
                     <p className="mt-1 text-base text-[15px] text-white">Apprenez à coder en Python, l'un des langages les plus polyvalents et populaires au monde. Ce cours vous guidera pas à pas</p>
                     <a href="#" title="" className="inline-flex items-center justify-center py-1.5 px-4 mt-5 text-sm font-semibold text-[#c3cc50] bg-white rounded-full transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
+                        Commencer
                     </a>
                     </div>
                 </div>
