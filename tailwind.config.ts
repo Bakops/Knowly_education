@@ -14,7 +14,10 @@ export default {
       },
       height: {
         height_header: "78px",
-      }
+      },
+      fontFamily: {
+        poppins: ['var(--font-poppins)'],
+      },
     },
   },
   plugins: [],

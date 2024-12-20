@@ -24,11 +24,11 @@ export default function HeaderComponent() {
                 {/* Menu links in the middle */}
                 <nav className={`w-full bg-gray-800 flex-col items-center ${isMenuOpen ? "opacity-0" : "hidden"} md:flex md:flex-row md:w-auto`}>
                     <ul className="flex flex-col md:flex-row md:gap-8">
-                        <li><a href="#" className="menu-link text-sm menu-link-active uppercase">Accueil</a></li>
-                        <li><a href="#" className="menu-link text-sm uppercase">Cours</a></li>
-                        <li><a href="#" className="menu-link text-sm uppercase">Leçons</a></li>
-                        <li><a href="#" className="menu-link text-sm uppercase">À propos</a></li>
-                        <li><a href="#" className="menu-link text-sm uppercase">Contact</a></li>
+                        <li><a href="/api/All_translator" className="menu-link text-sm menu-link-active uppercase">Accueil</a></li>
+                        <li><a href="/api/All_translator" className="menu-link text-sm uppercase">Cours</a></li>
+                        <li><a href="/api/All_translator" className="menu-link text-sm uppercase">Leçons</a></li>
+                        <li><a href="/api/All_translator" className="menu-link text-sm uppercase">À propos</a></li>
+                        <li><a href="/api/All_translator" className="menu-link text-sm uppercase">Contact</a></li>
                     </ul>
                 </nav>
 

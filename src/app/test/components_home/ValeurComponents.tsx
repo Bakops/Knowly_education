@@ -5,8 +5,8 @@ export default function ValeursComponents(){
         <section className="py-10 bg-white sm:py-16 lg:py-24">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="max-w-2xl mx-auto text-center mb-12">
-                    <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Our Core Values</h2>
-                    <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Discover what makes us unique and drives our commitment to excellence</p>
+                    <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">L'appli qui fait bosser plus malin !</h2>
+                    <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Avec notre appli, apprendre devient un jeu d'enfant (ou presque). Fini les galères, place aux progrès à portée de clic ! Vous allez adorer réviser, promis.</p>
                 </div>
                 
                 <div className="grid grid-cols-1 gap-12 text-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-16">
@@ -19,8 +19,8 @@ export default function ValeursComponents(){
                                 <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
                             </svg>
                         </div>
-                        <h3 className="mt-8 text-lg font-semibold text-black hover:text-blue-600">Secured Payments</h3>
-                        <p className="mt-4 text-base text-gray-600">Your transactions are protected with state-of-the-art security measures and encryption protocols.</p>
+                        <h3 className="mt-8 text-lg font-semibold text-black hover:text-[#c3cc50]">Savoir accessible</h3>
+                        <p className="mt-4 text-base text-gray-600">Accédez à des cours clairs et complets, conçus pour simplifier même les sujets les plus complexes.</p>
                     </div>
 
                     <div className="transform transition duration-500 hover:scale-105">
@@ -32,8 +32,8 @@ export default function ValeursComponents(){
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
                         </div>
-                        <h3 className="mt-8 text-lg font-semibold text-black hover:text-orange-600">Fast & Easy to Load</h3>
-                        <p className="mt-4 text-base text-gray-600">Experience lightning-fast loading times and smooth performance across all devices.</p>
+                        <h3 className="mt-8 text-lg font-semibold text-black hover:text-orange-600">Apprentissage éclairé</h3>
+                        <p className="mt-4 text-base text-gray-600">Progressez rapidement grâce à des outils interactifs et une approche dynamique qui booste votre motivation.</p>
                     </div>
 
                     <div className="transform transition duration-500 hover:scale-105">
@@ -46,8 +46,8 @@ export default function ValeursComponents(){
                                 <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
                             </svg>
                         </div>
-                        <h3 className="mt-8 text-lg font-semibold text-black hover:text-green-600">Light & Dark Version</h3>
-                        <p className="mt-4 text-base text-gray-600">Choose between light and dark themes for optimal viewing comfort in any environment.</p>
+                        <h3 className="mt-8 text-lg font-semibold text-black hover:text-green-600">Certifié pour réussir</h3>
+                        <p className="mt-4 text-base text-gray-600"> Validez vos acquis avec des certifications reconnues et mettez en avant vos compétences.</p>
                     </div>
                 </div>
             </div>
