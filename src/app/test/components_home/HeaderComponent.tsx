@@ -37,7 +37,7 @@ export default function HeaderComponent() {
 
                 {/* Social media icons at the end, hidden on mobile */}
                 <div className="hidden md:flex flex-wrap items-center justify-center gap-4">
-                <Link href="/test/page/connexion" title="Se connecter" className="inline-flex items-center justify-center py-1.5 px-4 text-sm font-semibold text-white hover:text-[#c3cc50] transition-all duration-200">
+                <Link href="/api/auth/login" title="Se connecter" className="inline-flex items-center justify-center py-1.5 px-4 text-sm font-semibold text-white hover:text-[#c3cc50] transition-all duration-200">
                     Se connecter
                 </Link>
 
