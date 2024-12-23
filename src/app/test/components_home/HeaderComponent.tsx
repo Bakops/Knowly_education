@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
+
 export default function HeaderComponent() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
    
@@ -36,11 +37,11 @@ export default function HeaderComponent() {
 
                 {/* Social media icons at the end, hidden on mobile */}
                 <div className="hidden md:flex flex-wrap items-center justify-center gap-4">
-                <Link href="/api/auth/login" title="Se connecter" className="inline-flex items-center justify-center py-1.5 px-4 text-sm font-semibold text-white hover:text-[#c3cc50] transition-all duration-200">
+                <Link href="/api/auth/logout" title="Se connecter" className="inline-flex items-center justify-center py-1.5 px-4 text-sm font-semibold text-white hover:text-[#c3cc50] transition-all duration-200">
                     Se connecter
                 </Link>
 
-                <Link href="/test/page/inscriptions" title="S'inscrire" className="inline-flex items-center justify-center py-1.5 px-4 text-sm font-semibold text-[#c3cc50] bg-white rounded-full transition-all duration-200 border-b-2 border-transparent hover:bg-[#c3cc50] hover:text-[#FFF]">
+                <Link href="/api/auth/login" title="S'inscrire" className="inline-flex items-center justify-center py-1.5 px-4 text-sm font-semibold text-[#c3cc50] bg-white rounded-full transition-all duration-200 border-b-2 border-transparent hover:bg-[#c3cc50] hover:text-[#FFF]">
                     S'inscrire
                 </Link>
             </div>
