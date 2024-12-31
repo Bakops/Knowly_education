@@ -9,8 +9,6 @@ const MePage = async () => {
 
   
   return (
-    <>
-     <div className="flex align-middle justify-center text-3xl font-poppins"><h1 className="text-black">Profile</h1></div>
     <div className="flex justify-center items-center h-screen flex-col">
       <Image
         src={data?.user?.picture}
@@ -18,8 +16,8 @@ const MePage = async () => {
         width={200}
         height={200}
       />
-      <h1 className="text-2xl text-black">Pseudos {data?.user?.nickname}</h1>
-      <h1 className="text-2xl text-black"> Email: {data?.user?.name}</h1>
+      <h1 className="text-2xl text-black">Nick Name: {data?.user?.nickname}</h1>
+      <h1 className="text-2xl text-black"> Name: {data?.user?.name}</h1>
 
       <br />
 
@@ -27,7 +25,7 @@ const MePage = async () => {
         href="/api/auth/login"
         className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-3"
       >
-        Login
+        Update
       </Link>
 
       <Link
@@ -37,8 +35,6 @@ const MePage = async () => {
         Logout
       </Link>
     </div>
-    </>
-   
   );
 };
 

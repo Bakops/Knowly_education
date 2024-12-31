@@ -25,7 +25,7 @@ export default function HeroHeader() {
 
                     <p className="mt-8 text-base text-black text-left sm:text-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>
                     <div className="flex flex-col sm:flex-row gap-5 mt-8 md:justify-left">
-                    <button className="w-full sm:w-auto bg-[#c3cc50] text-[#1a1a1a] px-5 py-3 text-sm sm:text-base rounded-md hover:bg-slate-300 hover:text-[#c3cc50] cursor-pointer">
+                    <button className="button_app w-full sm:w-auto bg-[#c3cc50] text-[#1a1a1a] px-5 py-3 text-sm sm:text-base rounded-md hover:bg-slate-300 hover:text-[#c3cc50] cursor-pointer">
                         <a href="/api/All_translator">En savoir plus</a>
                     </button>
                     <button className="w-full sm:w-auto bg-gray-800 text-[#FFF] px-5 py-3 text-sm sm:text-base rounded-md hover:opacity-90 cursor-pointer relative flex align-middle justify-center gap-3">
